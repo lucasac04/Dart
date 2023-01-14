@@ -1,10 +1,9 @@
 import 'calc.dart';
-import 'dart:io';
 void main(){
 
-int x = 0;
+double x = 3;
 String op = '/';
-int y = 0;
+double y = 2;
 Calculo calculo = new Calculo(x, y, op);
 print(calculo.operacao());
 
